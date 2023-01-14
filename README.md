@@ -23,6 +23,17 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
+<img width="434" alt="Screenshot 2023-01-14 at 16 52 12" src="https://user-images.githubusercontent.com/112814924/212498730-11dfd277-7b30-4980-8f4c-509b7eb6ce51.png">
+
+Lot 1
+<img width="430" alt="Screenshot 2023-01-14 at 16 52 47" src="https://user-images.githubusercontent.com/112814924/212498740-8aa637f2-c4b2-4702-b18f-cd2633fe0cb8.png">
+
+Lot 2
+<img width="406" alt="Screenshot 2023-01-14 at 16 52 58" src="https://user-images.githubusercontent.com/112814924/212498745-9bac77d9-620b-4cc0-8186-80f5e02f8f27.png">
+
+Lot 3
+<img width="413" alt="Screenshot 2023-01-14 at 16 53 05" src="https://user-images.githubusercontent.com/112814924/212498753-176958a7-74e2-4483-8d51-fea533a5b60e.png">
+
 
 ## Study Design: MechaCar vs Competition
 What metric or metrics are you going to test?
