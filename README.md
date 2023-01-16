@@ -2,7 +2,7 @@
 
 AutosRU's is a very successful car dealer that has released their newest prototype car, the MechaCar, which should be successful, but has sadly suffered from production issues, blocking the manufacturing team's progress.
 
-Jeremy has been with the company for 10 years and because he has extensive product knowledge, he was chosen as the lead analyst for the data analysis team to perform statistical tests and find insights to help the manufacturing team.
+Jeremy has been with the company for 10 years and because he has extensive product knowledge, he was chosen as the lead analyst for the data analytics team to perform statistical tests and find insights to help the manufacturing team.
 
 For this analysis, Jeremy will use the R programming language.
 
@@ -12,7 +12,6 @@ For this analysis, Jeremy will use the R programming language.
 To identify which variables in the dataset predict the mpg of MechaCar prototypes, Jeremy performed multiple linear regression and will answer 3 important questions from his findings.
 
 <img width="794" alt="Screenshot 2023-01-14 at 16 43 28" src="https://user-images.githubusercontent.com/112814924/212498453-10d46ea3-85ca-4517-aa26-8474f5ac309e.png">
-
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -46,7 +45,7 @@ However, if we review each lot individually, it can be seen that the variance re
 
 ## T-Tests on Suspension Coils
 
-Finally, to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, Jeremy has performed a t-test in which the results are the following:
+Finally, to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, Jeremy has performed a t-test, in which the results are the following:
 
 Alternative Hypothesis = PSI  is not equal to 1500
 
@@ -58,6 +57,7 @@ mean = 1498.78
 
 <img width="434" alt="Screenshot 2023-01-14 at 16 52 12" src="https://user-images.githubusercontent.com/112814924/212498730-11dfd277-7b30-4980-8f4c-509b7eb6ce51.png">
 
+Three idividual t-tests were also performed per lot:
 
 Lot 1: there is not enough evidence to reject the null hypothesis
 
