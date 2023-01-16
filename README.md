@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 
 AutosRU's is a very successful car dealer that has released their newest prototype car, the MechaCar, which should be successful, but has sadly suffered from production issues, blocking the manufacturing team's progress.
 
@@ -20,9 +20,11 @@ As we can see in the image above, the mpg will always be equal to the intercept 
 
 However, the variables that provided a non-random amount of variance are vehicle length (2.60e-12) and ground clearance (5.21e-08), as both p-values are small which means they are highly significant.
 
+
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
 The slope of the linear model is not considered 0 because when any of the variables (vehicle weight, vehicle length, AWD, etc.) increases by 1, the mpg value will change.
+
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
@@ -82,6 +84,7 @@ The study model run by Jeremy has been interesting, however I would like to prop
 
 Some of the variables I would add to the analysis are: horsepower, maintenance, safety, and cost. These variables will not only help the performance of the car, but will also allow the mpg to be maintained.
 
+
 - What is the null hypothesis or alternative hypothesis?
 
 The most importante variable, in my opinion, is the horsepower(hp), as that really determines the performance of a car. So my analysis will be like this:
@@ -90,17 +93,20 @@ Null hypothesis = HP is equal to 180
 
 Alternative Hypothesis= HP is not equal to 180
 
+
 - What statistical test would you use to test the hypothesis? And why?
 
 I would calculate the car population data, in this case, Manufacturer Lot with the horsepower.
 
-t.test(car population data $hp), = mu=180)
+t.test(car population data $hp), mu=180)
+
 
 - What data is needed to run the statistical test?
 
 To run the statistical test, we'll first need to create a dataset with the vehicle ID, the number of cars to be manufactured per lot, and the horsepower of each car. Then we'll calculate the population data with the horsepower.
 
 These data will allow us to demonstrate that the performance of the MechaCar is superior to that of our competition.
+
 
 ### Resources
 
