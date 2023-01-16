@@ -14,9 +14,9 @@ To identify which variables in the dataset predict the mpg of MechaCar prototype
 <img width="794" alt="Screenshot 2023-01-14 at 16 43 28" src="https://user-images.githubusercontent.com/112814924/212498453-10d46ea3-85ca-4517-aa26-8474f5ac309e.png">
 
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-1. As we can see in the image above, the mpg will always be equal to the intercept since the other variables will remain constant, which means equal to 0.
+As we can see in the image above, the mpg will always be equal to the intercept since the other variables will remain constant, which means equal to 0.
 
 However, the variables that provided a non-random amount of variance are vehicle length (2.60e-12) and ground clearance (5.21e-08), as both p-values are small which means they are highly significant.
 
@@ -47,26 +47,29 @@ However, if we review each lot individually, it can be seen that the variance re
 Finally, to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch, Jeremy has performed a t-test in which the results are the following:
 
 Alternative Hypothesis = PSI  is not equal to 1500
+
 Null Hypothesis = PSI is equal to 1500
+
 p-value = 0.06028 > 0.05% (criteria) therefore there is not enough evidence to reject the null hypothesis (PSI is equal to 1500).
+
 mean = 1498.78
 
 <img width="434" alt="Screenshot 2023-01-14 at 16 52 12" src="https://user-images.githubusercontent.com/112814924/212498730-11dfd277-7b30-4980-8f4c-509b7eb6ce51.png">
 
 
-Lot 1
+Lot 1: there is not enough evidence to reject the null hypothesis
 
 mean = 1500
 
 <img width="430" alt="Screenshot 2023-01-14 at 16 52 47" src="https://user-images.githubusercontent.com/112814924/212498740-8aa637f2-c4b2-4702-b18f-cd2633fe0cb8.png">
 
-Lot 2
+Lot 2: there is not enough evidence to reject the null hypothesis
 
 mean= 1500.2
 
 <img width="406" alt="Screenshot 2023-01-14 at 16 52 58" src="https://user-images.githubusercontent.com/112814924/212498745-9bac77d9-620b-4cc0-8186-80f5e02f8f27.png">
 
-Lot 3
+Lot 3: there is not enough evidence to reject the null hypothesis
 
 mean = 1496.14
 
@@ -84,6 +87,7 @@ Some of the variables I would add to the analysis are: horsepower, maintenance, 
 The most importante variable, in my opinion, is the horsepower(hp), as that really determines the performance of a car. So my analysis will be like this:
 
 Null hypothesis = HP is equal to 180
+
 Alternative Hypothesis= HP is not equal to 180
 
 - What statistical test would you use to test the hypothesis? And why?
